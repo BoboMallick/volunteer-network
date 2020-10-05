@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from 'react';
 import { UserContext } from '../../App';
 import Head from '../Head/Head';
 import './EventItem.css'
-import SingleEvent from './SingleEvent';
+import SingleItem from './SingleItem';
 
 const EventItem = () => {
     const [eventData, setEventData] = useState([])
@@ -32,20 +32,20 @@ const EventItem = () => {
     }
 
     return (
-        <>
+        <div className="container">
         <Head></Head>
             {
                 loggedInUser.email ?
                     <div className="row text-center">
-                        {/* <Head></Head> */}
+                        
                         {
-                            eventData.map(data => <SingleEvent item={data} handleDelete={handleDelete}></SingleEvent>)
+                            eventData.map(data => <SingleItem item={data} handleDelete={handleDelete}></SingleItem>)
                         }
                     </div>
                     :
                     <h1>Not Found</h1>
             }
-        </>
+        </div>
     )
 };
 

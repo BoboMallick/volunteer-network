@@ -1,9 +1,9 @@
 import React from 'react';
 
-const SingleEvent = (props) => {
+const SingleItem = (props) => {
     const { item, handleDelete } = props;
     return (
-        <>
+        
             <div className="col-md-6">
                 <div className="row">
                     <div className="col-md-6 m-2 p-2">
@@ -16,8 +16,8 @@ const SingleEvent = (props) => {
                     </div>
                 </div>
             </div>
-        </>
+     
     );
 };
 
-export default SingleEvent;
+export default SingleItem;
