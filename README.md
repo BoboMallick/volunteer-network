@@ -2,11 +2,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Summary
 
- Travel Guru is a simple single-page web application. This website helps the customers to choose a travel place. User can see some hotels of the selected location on google map.
+  Volunteer Network is a simple single-page web application. It is a charity foundation website. User can choose any event and register as a volunteer. Use can see registered activity and also delete the activity.
 
  ## Technologies 
  
  React, React-router, Firebase Auth, MaterialUI, MongoDB, Netlyfy,   Heroku
 
 ## Live Link 
-https://suspicious-mcclintock-f836ef.netlify.app
+https://suspicious-villani-8c3b47.netlify.app
